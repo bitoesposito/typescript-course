@@ -5,11 +5,11 @@
 // }
 
 type Role = 'admin' | 'editor' | 'guest';
-type User = {
-    name: string;
-    age: number;
-    role: Role;
-}
+// type User = {
+//     name: string;
+//     age: number;
+//     role: Role;
+// }
 
 // let userRole: Role = 0;
 let userRole: Role;
