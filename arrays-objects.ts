@@ -4,9 +4,10 @@ hobbies = ['Sports', 'Cooking'];
 
 hobbies.push(10);
 
-let possibleResults: [number, 20];
+let possibleResults: [10 | 20 , 10 | 20];
 
 possibleResults = [10, 20];
+possibleResults = [20, 10];
 // possibleResults = [11, 21];
 // possibleResults = [10, 20, 30];
 
@@ -30,7 +31,7 @@ let user: {
 
 let val: {} = 'is a value';
 
-// Record mi costringe a voler un oggetto con una chiave stringa e un valore stringa o numero con questa impostazione
+// ecord mi costringe a voler un oggetto con una chiave stringa e un valore stringa o numero con questa impostazione
 let data: Record<string, string | number> = {
     name: 'Max',
     age: 30

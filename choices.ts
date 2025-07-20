@@ -1,7 +1,8 @@
-enum Role {
-    Admin,
-    Editor,
-    Guest
-}
+// enum Role {
+//     Admin,
+//     Editor,
+//     Guest
+// }
 
-let userRole: Role = 0;
+// let userRole: Role = 0;
+let userRole: 'admin' | 'editor' | 'guest';
