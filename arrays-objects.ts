@@ -27,3 +27,17 @@ let user: {
         id: 1
     }
 }
+
+let val: {} = 'is a value';
+
+// Record mi costringe a voler un oggetto con una chiave stringa e un valore stringa o numero con questa impostazione
+let data: Record<string, string | number> = {
+    name: 'Max',
+    age: 30
+}
+
+data = {
+    name: 'Max',
+    age: 30,
+    // hobbies: ['Sports', 'Cooking']
+}
