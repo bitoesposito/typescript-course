@@ -1,5 +1,5 @@
-// const userName = 'Max';
-// // userName = 'Maximilian';
+// const userName = 'Vito';
+// // userName = 'Vito';
 // let age = 30;
 
 // age = 29;
@@ -36,7 +36,7 @@ const activeHobbies = ['Hiking'];
 activeHobbies.push(...hobbies);
 
 const person = {
-  firstName: 'Max',
+  firstName: 'Vito',
   age: 30
 };
 

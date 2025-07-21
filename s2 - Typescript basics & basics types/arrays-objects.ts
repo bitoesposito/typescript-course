@@ -20,7 +20,7 @@ let user: {
         id: number;
     }
 } = {
-    name: 'Max',
+    name: 'Vito',
     age: 30,
     hobbies: ['Sports', 'Cooking'],
     role: {
@@ -33,12 +33,12 @@ let val: {} = 'is a value';
 
 // ecord mi costringe a voler un oggetto con una chiave stringa e un valore stringa o numero con questa impostazione
 let data: Record<string, string | number> = {
-    name: 'Max',
+    name: 'Vito',
     age: 30
 }
 
 data = {
-    name: 'Max',
+    name: 'Vito',
     age: 30,
     // hobbies: ['Sports', 'Cooking']
 }

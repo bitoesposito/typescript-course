@@ -26,7 +26,7 @@ type User = {
 }
 
 let user: User = {
-    name: 'Max',
+    name: 'Vito',
     age: 30,
     greet() {
         console.log('Hello there!')

@@ -1,2 +1,2 @@
-let userName = 'Max';
+let userName = 'Vito';
 console.log(typeof userName);
